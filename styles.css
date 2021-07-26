@@ -24,7 +24,7 @@ h1, h2, h3, p {
 button {
     display: block;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 5%;
     padding: 5%;
     min-width: 60%;
     max-height: 15%;
