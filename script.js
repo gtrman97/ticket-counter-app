@@ -6,7 +6,6 @@ function incrementValue() {
 
     value++; 
 
-    // console.log(value);
     element.innerHTML = value; 
 } 
 function clearValue() {
