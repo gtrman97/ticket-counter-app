@@ -24,4 +24,13 @@ button {
     padding: 5%;
     min-width: 60%;
     max-height: 15%;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+}
+.increment {
+    background-color: red;
+}
+.save {
+    background-color: green;
 }
