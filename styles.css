@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    background-color: tomato;
 }
 .container {
     height: 45vh;
@@ -12,8 +13,14 @@ body {
     background-size: 100% 100%;
     /* background-repeat: repeat-y; */
 }
+h1, h2, p {
+    text-shadow: 2px 2px white;
+}
 button {
     display: block;
     margin: auto;
+    margin-top: 5px;
     padding: 5%;
+    min-width: 60%;
+    max-height: 15%;
 }
