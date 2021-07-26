@@ -1,4 +1,4 @@
-function incrementValue () {
+function incrementValue() {
     
    var element = document.getElementById('incrementText');
    var value = parseInt(element.innerHTML); // parseInt coverts the
@@ -9,3 +9,10 @@ function incrementValue () {
     // console.log(value);
     element.innerHTML = value; 
 } 
+function clear() {
+   
+   var element = document.getElementById('incrementText');
+   var value = parseInt(element.innerHTML);
+   element.innerHTML = 0; 
+    
+}
