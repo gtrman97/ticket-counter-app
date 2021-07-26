@@ -4,7 +4,7 @@ body {
     background-color: tomato;
 }
 .container {
-    max-height: 50vh;
+    max-height: 55vh;
     max-width: 75vw;
     border: solid 2px black;
     border-radius: 15px;
@@ -29,10 +29,13 @@ button {
     font-weight: bolder;
 }
 .increment {
-    background-color: red;
+    background-color: green;
 }
 .save {
-    background-color: green;
+    background-color: blue;
+}
+.clear {
+    background-color: red;
 }
 @media only screen and (min-width: 1024px) {
     body {
