@@ -19,7 +19,6 @@ function saveValue() {
    var element = document.getElementById('incrementText');
    var value = parseInt(element.innerHTML);
    var saved = document.getElementById('saved'); 
-   var savedValue = parseInt(saved.innerHTML); 
-   savedValue = value; 
+   saved.innerHTML = value + " - "; 
 
 }
