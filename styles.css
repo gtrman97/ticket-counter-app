@@ -1,13 +1,14 @@
 body {
     margin: auto;
     margin-top: 15vh;
-    background-color: darkred
+    background-color: darkred;
 }
 .container {
     max-height: 60vh;
     max-width: 75vw;
     border: solid 2px black;
     border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
     margin: 12.5%;
     text-align: center;
     background-image: url(train.jpg);
