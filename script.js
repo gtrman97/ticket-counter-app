@@ -9,7 +9,7 @@ function incrementValue() {
     // console.log(value);
     element.innerHTML = value; 
 } 
-function clear() {
+function clearValue() {
    
    var element = document.getElementById('incrementText');
    var value = parseInt(element.innerHTML);
