@@ -3,11 +3,14 @@ body {
 }
 .container {
     height: 45vh;
-    min-width: 70vw;
+    min-width: 75vw;
     border: solid 2px black;
     border-radius: 15px;
     margin: 12.5%;
     text-align: center;
+    background-image: url(train.jpg);
+    background-size: 100% 100%;
+    /* background-repeat: repeat-y; */
 }
 button {
     display: block;
