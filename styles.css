@@ -30,12 +30,17 @@ button {
 }
 .increment {
     background-color: green;
+    border: solid 2px green;
 }
 .save {
     background-color: blue;
+    border: solid 2px blue;
+
 }
 .clear {
     background-color: red;
+    border: solid 2px red;
+
 }
 @media only screen and (min-width: 1024px) {
     body {
