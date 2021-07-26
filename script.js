@@ -12,7 +12,6 @@ function incrementValue() {
 function clearValue() {
    
    var element = document.getElementById('incrementText');
-   var value = parseInt(element.innerHTML);
    element.innerHTML = 0; 
     
 }
