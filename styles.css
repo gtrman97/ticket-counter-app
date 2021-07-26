@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+}
+.container {
+    height: 45vh;
+    min-width: 70vw;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin: 12.5%;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 5%;
+}
