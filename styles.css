@@ -35,8 +35,12 @@ button {
     background-color: green;
 }
 @media only screen and (min-width: 1024px) {
+    body {
+        margin-top: 15%;
+    }
     .container {
-        max-width: 20%;
+        max-width: 25%;
+        margin: auto;
     }
     button {
         max-width: 20%;
