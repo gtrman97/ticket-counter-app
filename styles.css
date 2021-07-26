@@ -4,7 +4,7 @@ body {
     background-color: tomato;
 }
 .container {
-    max-height: 55vh;
+    max-height: 60vh;
     max-width: 75vw;
     border: solid 2px black;
     border-radius: 15px;
