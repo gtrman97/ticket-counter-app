@@ -1,7 +1,7 @@
 body {
     margin: auto;
     margin-top: 15vh;
-    background-color: darkred;
+    background-color: firebrick;
 }
 .container {
     max-height: 60vh;
@@ -30,17 +30,17 @@ button {
     font-weight: bolder;
 }
 .increment {
-    background-color: green;
-    border: solid 2px green;
+    background-color: darkgreen;
+    border: solid 2px darkgreen;
 }
 .save {
-    background-color: blue;
-    border: solid 2px blue;
+    background-color: darkblue;
+    border: solid 2px darkblue;
 
 }
 .clear {
-    background-color: red;
-    border: solid 2px red;
+    background-color: darkred;
+    border: solid 2px darkred;
 
 }
 @media only screen and (min-width: 1024px) {
