@@ -1,3 +1,5 @@
+var nums = [];
+
 function incrementValue() {
     
    var element = document.getElementById('incrementText');
@@ -19,6 +21,7 @@ function saveValue() {
    var element = document.getElementById('incrementText');
    var value = parseInt(element.innerHTML);
    var saved = document.getElementById('saved'); 
-   saved.innerHTML = value + " - "; 
+   nums.push(value); 
+   saved.innerHTML = nums.join(" - "); 
 
 }
