@@ -39,23 +39,28 @@ button {
 .increment:hover {
     background-color: green;
 }
+.increment:active {
+    transform: translateY(2.5px);
+}
 .save {
     background-color: darkblue;
     border: solid 2px darkblue;
-
 }
 .save:hover {
     background-color: blue;
-
+}
+.save:active {
+    transform: translateY(2.5px);
 }
 .clear {
     background-color: darkred;
     border: solid 2px darkred;
-
 }
 .clear:hover {
     background-color: red;
-
+}
+.clear:active {
+    transform: translateY(2.5px);
 }
 @media only screen and (min-width: 1024px) {
     body {
