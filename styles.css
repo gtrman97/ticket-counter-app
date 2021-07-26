@@ -6,7 +6,7 @@ body {
 .container {
     max-height: 60vh;
     max-width: 75vw;
-    border: solid 2px black;
+    border: solid 5px black;
     border-radius: 15px;
     box-shadow: 2px 2px 5px black;
     margin: 12.5%;
@@ -17,6 +17,9 @@ body {
 }
 h1, h2, h3, p {
     text-shadow: 2px 2px white;
+}
+#incrementText {
+    font-size: xx-large;
 }
 button {
     display: block;
