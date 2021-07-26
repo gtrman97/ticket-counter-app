@@ -4,8 +4,8 @@ body {
     background-color: tomato;
 }
 .container {
-    height: 45vh;
-    min-width: 75vw;
+    max-height: 45vh;
+    max-width: 75vw;
     border: solid 2px black;
     border-radius: 15px;
     margin: 12.5%;
@@ -33,4 +33,12 @@ button {
 }
 .save {
     background-color: green;
+}
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 20%;
+    }
+    button {
+        max-width: 20%;
+    }
 }
