@@ -36,14 +36,25 @@ button {
     background-color: darkgreen;
     border: solid 2px darkgreen;
 }
+.increment:hover {
+    background-color: green;
+}
 .save {
     background-color: darkblue;
     border: solid 2px darkblue;
 
 }
+.save:hover {
+    background-color: blue;
+
+}
 .clear {
     background-color: darkred;
     border: solid 2px darkred;
+
+}
+.clear:hover {
+    background-color: red;
 
 }
 @media only screen and (min-width: 1024px) {
