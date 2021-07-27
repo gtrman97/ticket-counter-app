@@ -30,7 +30,8 @@ button {
     max-height: 15%;
     border-radius: 15px;
     color: white;
-    font-weight: bolder;
+    font-size: large;
+    font-weight: bold;
 }
 .increment {
     background-color: darkgreen;
